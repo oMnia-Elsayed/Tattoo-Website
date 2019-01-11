@@ -1,0 +1,33 @@
+body
+{
+  background-image: url("images/9.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: Charm;
+}
+span{
+  color: $primary-color;
+}
+h1 
+{
+  color: $gray;
+  text-transform: uppercase;
+}
+
+h3{color: $gray;}
+
+p,h6{
+  font-family: 'Open sans';
+  color: $gray;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+.no

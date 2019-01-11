@@ -1,0 +1,51 @@
+
+
+.navbar
+{
+    .logoDiv
+    {
+        overflow: hidden;
+        img 
+        {
+            height: 2rem;
+        }
+    }
+    &-nav
+    {
+        padding: $no-padding $padding-large $no-padding $padding-larger;
+    }
+    
+    .nav 
+    {
+        &-link
+        {
+            text-transform: uppercase;
+            color: black;
+        }
+        &-item
+        {
+            
+            &:hover
+            {
+                background-color: $primary-color;
+                border-radius: 0.2rem;
+            }
+        }
+    }
+    
+}
+
+.btn-lg
+{
+    width: 10rem;
+    height: 3rem;
+    line-height: 2rem;
+    background-color: $primary-color;
+    border-color: $primary-color; 
+    color: $white;
+    &:hover
+    {
+        background-color: $gray;
+        border-color: $gray;
+    }
+} 

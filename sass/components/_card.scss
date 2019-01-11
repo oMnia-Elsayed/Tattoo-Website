@@ -1,0 +1,84 @@
+.card
+{
+    height: 15rem;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    .layout
+    {
+        width: 100%;
+        height: 15rem;
+        background-color: rgba(0,0,0,0.4);
+        position: absolute;
+        top: 0rem;
+        opacity: 0;
+    }
+    &-hover
+    {
+        // .btn-color
+        // {
+        //     width: 10rem;
+        //     position: absolute;
+        //     top: 14rem;
+        //     left: 3.5rem;
+        //     background-color: $white;
+        //     color: $gray;
+        //     border: none;
+        // }
+        &:hover
+        { 
+            .layout
+            {
+                opacity: 1;
+            }
+            .card
+            {
+                border: 0.5rem solid $primary-color;
+            }
+        }
+    }
+    &-border
+    {
+        border: 0.5rem solid rgb(247, 237, 237);
+    }
+    &-width
+    {
+        width:30rem;
+    }
+    
+    &-slider
+    {
+        width: 34.5rem;
+        height: 30rem;
+        border: 0.5rem solid $primary-color;
+    }
+}
+.btn-color
+{
+    width:10rem;
+    background-color: $primary-color;
+    color: $white;
+    border-radius: 0.5rem;
+}
+.cards
+{
+    width: 34.5rem;
+    height: 10rem;
+    border: 0.5rem solid $primary-color;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    img{
+        width: 7.5rem;
+        height: 8rem;
+        
+        margin-top: 0.5rem ;
+        margin-left: 0.5rem;
+    }
+    .border-active
+    {
+        border: 0.3rem solid red;
+    }
+}
+  
+

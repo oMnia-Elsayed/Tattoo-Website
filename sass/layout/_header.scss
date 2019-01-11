@@ -1,0 +1,125 @@
+
+.studio
+{
+    position: relative;
+    & , .layout , .card-background-img
+    {
+        height: 50rem;
+        width: 100%;
+    }
+    .col
+    {
+        &-6
+        {
+            position: absolute;
+            top: 0;
+            padding: $padding-larger $padding-large;
+        }
+        &-edit
+        {
+            right: 0;
+            .card
+            {   
+                padding: $padding-large $no-padding $padding-small $padding-large;
+                background-color: transparent;
+                h1{
+                    color: $white;
+                }
+                &-width
+                {
+                    width: 35rem;
+                }
+            }
+        }
+    }
+    .layout
+    {
+        position: absolute;
+        top: 0;
+        opacity: 1;
+        background-color: rgba(0,0,0, 0.8);
+    }   
+}
+
+.pricing
+{
+    padding: 5rem;
+    height: 45rem;
+    .col-6
+    {
+        height: 35rem;
+    }
+    &-plans
+    {
+        height: 10rem;
+    }
+    .btn-color
+    {
+        width:25rem;
+        border: 0.1rem solid ;
+        border-radius: 0.5rem 0.1rem;
+        margin-bottom: 1rem;
+        font-size: 25px;
+    }
+    .card
+    {
+        &-border
+        {
+            height: 33rem;
+            border-color: $primary-color;
+        }
+
+        h2
+        {
+            padding: $no-padding $padding-larger $padding-small;
+        }
+        h3,h6
+        {
+            padding: $no-padding $padding-small ;
+        } 
+
+    }
+    .price
+    {
+        background-color: $primary-color;
+        color: $white;
+        border-radius: 50%;
+        float: right;
+        
+    }
+}
+
+.service
+{
+    padding: $padding-large;
+    height: 40rem;
+   .noImageCard
+   {
+       .card
+       {
+           border: none;
+       }
+   }
+  
+   
+}
+
+
+.gallery
+{
+    background-color: aqua;
+    height: 30rem;
+    padding: $padding-large;
+    .card , .layout
+    {
+        height: 20rem;
+    }
+    .layout
+    {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    // h2
+    // {
+
+    // }
+}
