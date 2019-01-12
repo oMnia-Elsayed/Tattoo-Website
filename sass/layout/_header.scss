@@ -1,7 +1,7 @@
 
 .studio
 {
-    position: relative;
+    position: relative; 
     & , .layout , .card-background-img
     {
         height: 50rem;
@@ -9,9 +9,8 @@
     }
     .col
     {
-        &-6
+        &-lg-6
         {
-            position: absolute;
             top: 0;
             padding: $padding-larger $padding-large;
         }
@@ -32,23 +31,19 @@
             }
         }
     }
-    .layout
-    {
-        position: absolute;
-        top: 0;
-        opacity: 1;
-        background-color: rgba(0,0,0, 0.8);
-    }   
+      
 }
 
+.layout
+{
+    position: absolute;
+    top: 0;
+    opacity: 1;
+    background-color: rgba(0,0,0, 0.8);
+} 
 .pricing
 {
-    padding: 5rem;
-    height: 45rem;
-    .col-6
-    {
-        height: 35rem;
-    }
+    padding: $padding-larger;
     &-plans
     {
         height: 10rem;
@@ -92,7 +87,6 @@
 .service
 {
     padding: $padding-large;
-    height: 40rem;
    .noImageCard
    {
        .card
@@ -107,19 +101,23 @@
 
 .gallery
 {
-    background-color: aqua;
-    height: 30rem;
     padding: $padding-large;
-    .card , .layout
+    .card-border 
     {
-        height: 20rem;
+        height: 17rem;
     }
-    .layout
+   
+    .gallery-card
     {
-        background-color: rgba(255, 255, 255, 0.8);
+        height: 5rem;
+        border: none;
     }
-    // h2
-    // {
+}
 
-    // }
+footer
+{
+    height: 5rem;
+    background-color: $primary-color;
+    h2 { line-height: inherit; float: left;}
+    // .form-control {display: inline;}
 }

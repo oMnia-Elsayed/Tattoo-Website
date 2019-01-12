@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Charm:400,700");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
 body {
-  background-image: url("images/9.jpg");
-  min-height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   font-family: Charm; }
 
 span {
@@ -27,53 +21,30 @@ p, h6 {
   padding: 0rem;
   margin: 0; }
 
-.col-3 {
+.col-lg-3 {
   padding: 1rem; }
 
-.slider img {
-  height: 60rem; }
+.col-lg-4 {
+  padding: 1rem; }
 
 .carousel-layout {
-  width: 100%;
-  height: 60rem;
+  height: 47.3rem;
   background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 4rem;
+  top: 0rem;
   opacity: 1; }
-  .carousel-layout h1 {
-    font-size: 5em;
-    color: #9CC0C1;
-    position: absolute;
-    top: 20rem;
-    left: 20rem;
-    transform: rotate(-10deg);
-    opacity: 0.5; }
-  .carousel-layout img {
-    position: absolute;
-    top: 6rem;
-    right: 45rem;
-    transform: rotate(-20deg); }
 
-.navbar .logoDiv {
-  overflow: hidden; }
-  .navbar .logoDiv img {
-    height: 2rem; }
-
-.navbar-nav {
-  padding: 0rem 4rem 0rem 5rem; }
-
-.navbar .nav-link {
-  text-transform: uppercase;
-  color: black; }
-
-.navbar .nav-item:hover {
-  background-color: #9CC0C1;
-  border-radius: 0.2rem; }
+.navbar {
+  background-color: #FFFFFF; }
+  .navbar img {
+    height: 5rem; }
+  .navbar .nav-link {
+    text-transform: uppercase;
+    color: black; }
+  .navbar .nav-item:hover {
+    background-color: #9CC0C1;
+    border-radius: 0.2rem; }
 
 .btn-lg {
-  width: 10rem;
-  height: 3rem;
-  line-height: 2rem;
   background-color: #9CC0C1;
   border-color: #9CC0C1;
   color: #FFFFFF; }
@@ -82,13 +53,11 @@ p, h6 {
     border-color: #666666; }
 
 .card {
-  height: 15rem;
-  padding: 0;
-  margin: 0;
+  height: 17rem;
   overflow: hidden; }
   .card .layout {
     width: 100%;
-    height: 15rem;
+    height: inherit;
     background-color: rgba(0, 0, 0, 0.4);
     position: absolute;
     top: 0rem;
@@ -124,16 +93,13 @@ p, h6 {
     height: 8rem;
     margin-top: 0.5rem;
     margin-left: 0.5rem; }
-  .cards .border-active {
-    border: 0.3rem solid red; }
 
 .studio {
   position: relative; }
   .studio, .studio .layout, .studio .card-background-img {
     height: 50rem;
     width: 100%; }
-  .studio .col-6 {
-    position: absolute;
+  .studio .col-lg-6 {
     top: 0;
     padding: 5rem 4rem; }
   .studio .col-edit {
@@ -145,17 +111,15 @@ p, h6 {
         color: #FFFFFF; }
       .studio .col-edit .card-width {
         width: 35rem; }
-  .studio .layout {
-    position: absolute;
-    top: 0;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, 0.8); }
+
+.layout {
+  position: absolute;
+  top: 0;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.8); }
 
 .pricing {
-  padding: 5rem;
-  height: 45rem; }
-  .pricing .col-6 {
-    height: 35rem; }
+  padding: 5rem; }
   .pricing-plans {
     height: 10rem; }
   .pricing .btn-color {
@@ -178,16 +142,21 @@ p, h6 {
     float: right; }
 
 .service {
-  padding: 4rem;
-  height: 40rem; }
+  padding: 4rem; }
   .service .noImageCard .card {
     border: none; }
 
 .gallery {
-  background-color: aqua;
-  height: 30rem;
   padding: 4rem; }
-  .gallery .card, .gallery .layout {
-    height: 20rem; }
-  .gallery .layout {
-    background-color: rgba(255, 255, 255, 0.8); }
+  .gallery .card-border {
+    height: 17rem; }
+  .gallery .gallery-card {
+    height: 5rem;
+    border: none; }
+
+footer {
+  height: 5rem;
+  background-color: #9CC0C1; }
+  footer h2 {
+    line-height: inherit;
+    float: left; }

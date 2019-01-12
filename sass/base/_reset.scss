@@ -1,11 +1,11 @@
 body
 {
-  background-image: url("images/9.jpg");
-  min-height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  // background-image: url("images/9.jpg");
+  // min-height: 500px;
+  // background-attachment: fixed;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
 
   font-family: Charm;
 }
@@ -25,9 +25,35 @@ p,h6{
   color: $gray;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
+.no-gutters
+{
+  padding: $no-padding;
+  margin: 0;
 }
-.no
+
+.col-lg-3
+{
+  padding: $padding-small;
+}
+
+// .col-sm-12
+// {
+//   padding-left: $no-padding;
+// }
+
+.col-lg-4
+{
+  padding: $padding-small;
+}
+
+// @media only screen and (min-width: 360px) {
+//    /* For mobile phones: */
+//    .navbar
+//    {
+//       background-color: $gray;
+//    }
+
+//   body {
+//     background-color: lightblue;
+//   }
+// }

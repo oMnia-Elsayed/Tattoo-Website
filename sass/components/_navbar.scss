@@ -2,19 +2,12 @@
 
 .navbar
 {
-    .logoDiv
-    {
-        overflow: hidden;
+    background-color: $white;
+   
         img 
         {
-            height: 2rem;
+            height: 5rem;
         }
-    }
-    &-nav
-    {
-        padding: $no-padding $padding-large $no-padding $padding-larger;
-    }
-    
     .nav 
     {
         &-link
@@ -37,9 +30,7 @@
 
 .btn-lg
 {
-    width: 10rem;
-    height: 3rem;
-    line-height: 2rem;
+    
     background-color: $primary-color;
     border-color: $primary-color; 
     color: $white;
