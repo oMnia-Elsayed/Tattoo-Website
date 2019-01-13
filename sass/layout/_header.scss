@@ -1,53 +1,46 @@
 
-.studio
+
+.carousel-layout
 {
-    position: relative; 
-    & , .layout , .card-background-img
-    {
-        height: 50rem;
-        width: 100%;
-    }
-    .col
-    {
-        &-lg-6
-        {
-            top: 0;
-            padding: $padding-larger $padding-large;
-        }
-        &-edit
-        {
-            right: 0;
-            .card
-            {   
-                padding: $padding-large $no-padding $padding-small $padding-large;
-                background-color: transparent;
-                h1{
-                    color: $white;
-                }
-                &-width
-                {
-                    width: 35rem;
-                }
-            }
-        }
-    }
-      
+    // height: 47.3rem;
+    height: inherit;
+    background-color: rgba(0,0,0,0.7);
+    opacity: 1;
+    // h1{
+    //     font-size: 5em;
+    //     color: $primary-color;
+    //     position: absolute;
+    //     top: 20rem;
+    //     left: 20rem;
+    //     transform: rotate(-10deg); 
+    //     opacity: 0.5;
+    //   }
+    // img{
+    //     position: absolute;
+    //     top: 6rem;
+    //     // right: 45rem;
+    //     transform: rotate(-20deg);
+    // }
 }
 
-.layout
+
+.studio
 {
-    position: absolute;
-    top: 0;
-    opacity: 1;
-    background-color: rgba(0,0,0, 0.8);
-} 
+    background-image: url('../images/2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+    h1{color: white}
+    p{
+        color: rgb(209, 209, 205);
+    }
+   
+}
+
+ 
 .pricing
 {
-    padding: $padding-larger;
-    &-plans
-    {
-        height: 10rem;
-    }
     .btn-color
     {
         width:25rem;
@@ -64,60 +57,35 @@
             border-color: $primary-color;
         }
 
-        h2
-        {
-            padding: $no-padding $padding-larger $padding-small;
-        }
-        h3,h6
-        {
-            padding: $no-padding $padding-small ;
-        } 
-
+        
     }
     .price
     {
         background-color: $primary-color;
         color: $white;
         border-radius: 50%;
-        float: right;
         
     }
 }
 
-.service
-{
-    padding: $padding-large;
-   .noImageCard
-   {
-       .card
-       {
-           border: none;
-       }
-   }
-  
-   
-}
-
-
 .gallery
 {
-    padding: $padding-large;
-    .card-border 
+    .layout
     {
-        height: 17rem;
-    }
-   
-    .gallery-card
-    {
-        height: 5rem;
-        border: none;
+        background-color: rgba(255,255,255,0.7)
     }
 }
 
 footer
 {
-    height: 5rem;
     background-color: $primary-color;
-    h2 { line-height: inherit; float: left;}
-    // .form-control {display: inline;}
+}
+
+
+
+.res_image 
+{
+	height: 20px;
+	width: 20px;
+    margin: 5px;
 }

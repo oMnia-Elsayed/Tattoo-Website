@@ -1,13 +1,10 @@
 
-
 .navbar
 {
-    background-color: $white;
-   
-        img 
-        {
-            height: 5rem;
-        }
+    img 
+    {
+        height: 3rem; 
+    }
     .nav 
     {
         &-link
@@ -16,27 +13,14 @@
             color: black;
         }
         &-item
-        {
-            
+        {  
             &:hover
             {
                 background-color: $primary-color;
                 border-radius: 0.2rem;
             }
-        }
+        } 
     }
-    
 }
 
-.btn-lg
-{
-    
-    background-color: $primary-color;
-    border-color: $primary-color; 
-    color: $white;
-    &:hover
-    {
-        background-color: $gray;
-        border-color: $gray;
-    }
-} 
+

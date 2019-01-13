@@ -1,18 +1,9 @@
 .card
 {
-    height: 17rem;
+    height: 16rem;
     overflow: hidden;
-    .layout
-    {
-        width: 100%;
-        height: inherit;
-        background-color: rgba(0,0,0,0.4);
-        position: absolute;
-        top: 0rem;
-        opacity: 0;
-    }
     &-hover
-    {
+    { 
         &:hover
         { 
             .layout
@@ -29,39 +20,37 @@
     {
         border: 0.5rem solid rgb(247, 237, 237);
     }
-    &-width
+    .layout
     {
-        width:30rem;
+        height: inherit;
+        background-color: rgba(0, 0, 0, 0.4);
+        opacity: 0;
     }
-    
-    &-slider
+    &-img-top
     {
-        width: 34.5rem;
-        height: 30rem;
-        border: 0.5rem solid $primary-color;
+        height: 100%;
     }
+
 }
-.btn-color
+
+.card-slider
 {
-    width:10rem;
-    background-color: $primary-color;
-    color: $white;
-    border-radius: 0.5rem;
+    width: 33rem;
+    height: 30rem;
+    border: 0.5rem solid $primary-color;
 }
 .cards
 {
-    width: 34.5rem;
+    width: 33rem;
     height: 10rem;
     border: 0.5rem solid $primary-color;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     img{
-        width: 7.5rem;
+        width: 7rem;
         height: 8rem;
-        
-        margin-top: 0.5rem ;
-        margin-left: 0.5rem;
+        border: 0.1rem solid $primary-color;
     }
 }
   

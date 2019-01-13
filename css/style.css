@@ -21,28 +21,49 @@ p, h6 {
   padding: 0rem;
   margin: 0; }
 
-.col-lg-3 {
-  padding: 1rem; }
+.navbar img {
+  height: 3rem; }
 
-.col-lg-4 {
-  padding: 1rem; }
+.navbar .nav-link {
+  text-transform: uppercase;
+  color: black; }
 
-.carousel-layout {
-  height: 47.3rem;
-  background-color: rgba(0, 0, 0, 0.5);
-  top: 0rem;
-  opacity: 1; }
+.navbar .nav-item:hover {
+  background-color: #9CC0C1;
+  border-radius: 0.2rem; }
 
-.navbar {
-  background-color: #FFFFFF; }
-  .navbar img {
-    height: 5rem; }
-  .navbar .nav-link {
-    text-transform: uppercase;
-    color: black; }
-  .navbar .nav-item:hover {
-    background-color: #9CC0C1;
-    border-radius: 0.2rem; }
+.card {
+  height: 16rem;
+  overflow: hidden; }
+  .card-hover:hover .layout {
+    opacity: 1; }
+  .card-hover:hover .card {
+    border: 0.5rem solid #9CC0C1; }
+  .card-border {
+    border: 0.5rem solid #f7eded; }
+  .card .layout {
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0; }
+  .card-img-top {
+    height: 100%; }
+
+.card-slider {
+  width: 33rem;
+  height: 30rem;
+  border: 0.5rem solid #9CC0C1; }
+
+.cards {
+  width: 33rem;
+  height: 10rem;
+  border: 0.5rem solid #9CC0C1;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .cards img {
+    width: 7rem;
+    height: 8rem;
+    border: 0.1rem solid #9CC0C1; }
 
 .btn-lg {
   background-color: #9CC0C1;
@@ -52,111 +73,50 @@ p, h6 {
     background-color: #666666;
     border-color: #666666; }
 
-.card {
-  height: 17rem;
-  overflow: hidden; }
-  .card .layout {
-    width: 100%;
-    height: inherit;
-    background-color: rgba(0, 0, 0, 0.4);
-    position: absolute;
-    top: 0rem;
-    opacity: 0; }
-  .card-hover:hover .layout {
-    opacity: 1; }
-  .card-hover:hover .card {
-    border: 0.5rem solid #9CC0C1; }
-  .card-border {
-    border: 0.5rem solid #f7eded; }
-  .card-width {
-    width: 30rem; }
-  .card-slider {
-    width: 34.5rem;
-    height: 30rem;
-    border: 0.5rem solid #9CC0C1; }
-
 .btn-color {
   width: 10rem;
   background-color: #9CC0C1;
   color: #FFFFFF;
   border-radius: 0.5rem; }
 
-.cards {
-  width: 34.5rem;
-  height: 10rem;
-  border: 0.5rem solid #9CC0C1;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap; }
-  .cards img {
-    width: 7.5rem;
-    height: 8rem;
-    margin-top: 0.5rem;
-    margin-left: 0.5rem; }
+.carousel-layout {
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 1; }
 
 .studio {
-  position: relative; }
-  .studio, .studio .layout, .studio .card-background-img {
-    height: 50rem;
-    width: 100%; }
-  .studio .col-lg-6 {
-    top: 0;
-    padding: 5rem 4rem; }
-  .studio .col-edit {
-    right: 0; }
-    .studio .col-edit .card {
-      padding: 4rem 0rem 1rem 4rem;
-      background-color: transparent; }
-      .studio .col-edit .card h1 {
-        color: #FFFFFF; }
-      .studio .col-edit .card-width {
-        width: 35rem; }
+  background-image: url("../images/2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .studio h1 {
+    color: white; }
+  .studio p {
+    color: #d1d1cd; }
 
-.layout {
-  position: absolute;
-  top: 0;
-  opacity: 1;
-  background-color: rgba(0, 0, 0, 0.8); }
+.pricing .btn-color {
+  width: 25rem;
+  border: 0.1rem solid;
+  border-radius: 0.5rem 0.1rem;
+  margin-bottom: 1rem;
+  font-size: 25px; }
 
-.pricing {
-  padding: 5rem; }
-  .pricing-plans {
-    height: 10rem; }
-  .pricing .btn-color {
-    width: 25rem;
-    border: 0.1rem solid;
-    border-radius: 0.5rem 0.1rem;
-    margin-bottom: 1rem;
-    font-size: 25px; }
-  .pricing .card-border {
-    height: 33rem;
-    border-color: #9CC0C1; }
-  .pricing .card h2 {
-    padding: 0rem 5rem 1rem; }
-  .pricing .card h3, .pricing .card h6 {
-    padding: 0rem 1rem; }
-  .pricing .price {
-    background-color: #9CC0C1;
-    color: #FFFFFF;
-    border-radius: 50%;
-    float: right; }
+.pricing .card-border {
+  height: 33rem;
+  border-color: #9CC0C1; }
 
-.service {
-  padding: 4rem; }
-  .service .noImageCard .card {
-    border: none; }
+.pricing .price {
+  background-color: #9CC0C1;
+  color: #FFFFFF;
+  border-radius: 50%; }
 
-.gallery {
-  padding: 4rem; }
-  .gallery .card-border {
-    height: 17rem; }
-  .gallery .gallery-card {
-    height: 5rem;
-    border: none; }
+.gallery .layout {
+  background-color: rgba(255, 255, 255, 0.7); }
 
 footer {
-  height: 5rem;
   background-color: #9CC0C1; }
-  footer h2 {
-    line-height: inherit;
-    float: left; }
+
+.res_image {
+  height: 20px;
+  width: 20px;
+  margin: 5px; }

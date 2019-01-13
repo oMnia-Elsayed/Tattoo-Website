@@ -1,12 +1,6 @@
 body
 {
-  // background-image: url("images/9.jpg");
-  // min-height: 500px;
-  // background-attachment: fixed;
-  // background-position: center;
-  // background-repeat: no-repeat;
-  // background-size: cover;
-
+  // background-color: lavender;
   font-family: Charm;
 }
 span{
@@ -31,29 +25,3 @@ p,h6{
   margin: 0;
 }
 
-.col-lg-3
-{
-  padding: $padding-small;
-}
-
-// .col-sm-12
-// {
-//   padding-left: $no-padding;
-// }
-
-.col-lg-4
-{
-  padding: $padding-small;
-}
-
-// @media only screen and (min-width: 360px) {
-//    /* For mobile phones: */
-//    .navbar
-//    {
-//       background-color: $gray;
-//    }
-
-//   body {
-//     background-color: lightblue;
-//   }
-// }
